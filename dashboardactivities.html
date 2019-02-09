@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untiled Document</title>
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link href="css/modal.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="wrapper">
+    <header class="topNav">
+        <div class="logo"><a href="index.html"><img src="gfx/White_Logo-01.png" alt="gennect"></a> </div>
+    </header>
+    <section id="leftCol">
+        <header>
+            <h1 class="dashboard">Dashboard</h1>
+        </header>
+        <nav class="mainNav">
+            <ul>
+                <li><a href="dashboard.html" data-section=".sectionOne">Chat</a></li>
+                <li><a href="dashboard.html" data-section=".sectionTwo">Calendar</a></li>
+                <li><a href="dashboard.html" data-section=".sectionThree">Create Activity</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section id="activityOne">
+        <header class="seperate">
+            <h1>Create Activity</h1>
+        </header>
+        <form class="bookIt">
+            <label class="selectActivity">
+            <input class="radioFloatTwo" type="radio" name="game" value="game">
+            <h4 class="activityHeader">Boardgame</h4>
+            </label>
+            <label class="selectActivity">
+            <input class="radioFloatTwo" type="radio" name="game" value="game">
+            <h4 class="activityHeader">Cards</h4>
+            </label>
+            <div class="clearFloat"></div>
+            <h2>When is your birthday?</h2>
+            <input type="date" name="birthday">
+            <div class="clearFloat"></div>
+            <label for="location" class="formStyles">Location</label>
+            <input type="text" name="location" required>
+            <div class="clearFloat"></div>
+            <label for="notes" class="formStyles">Notes</label>
+            <input type="text" name="notes" required>
+        </form>
+        <div class="sumbitValue">
+            <button class="buttonOne buttonStyle">Cancel</button>
+            <button class="buttonOne">Save</button>
+        </div>
+    </section>
+</div>
+</body>
+</html>
