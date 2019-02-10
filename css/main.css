@@ -477,3 +477,8 @@ input[type="text"] {
 .buttonStyle {
     margin: 0 10px 0 10px;
 }
+
+#submitBtn {
+    color: #fff;
+    text-decoration: none;
+}
